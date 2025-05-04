@@ -1,5 +1,5 @@
 package com.srgbrl.laba.entity;
 
 public enum Status {
-    OPEN,CLOSE
+    OPEN,CLOSED
 }

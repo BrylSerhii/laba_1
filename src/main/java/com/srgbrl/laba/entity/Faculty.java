@@ -20,6 +20,12 @@ public class Faculty {
         this.status = status;
     }
 
+    public Faculty(String name, Integer limit, Status status) {
+        this.name = name;
+        this.limit = limit;
+        this.status = status;
+    }
+
     public Integer getId() {
         return id;
     }

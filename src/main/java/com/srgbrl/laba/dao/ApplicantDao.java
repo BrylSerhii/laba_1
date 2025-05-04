@@ -3,7 +3,6 @@ package com.srgbrl.laba.dao;
 import com.srgbrl.laba.entity.Applicant;
 import com.srgbrl.laba.util.ConnectionManager;
 
-
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;

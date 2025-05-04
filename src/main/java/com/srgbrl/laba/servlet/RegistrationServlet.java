@@ -29,8 +29,8 @@ public class RegistrationServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         var user = validation.register(new User(req.getParameter("login"),req.getParameter("password"),"applicant"));
         if (user != null) {
-           req.getSession().setAttribute("user", user);
-           resp.sendRedirect("/");
+            req.getSession().setAttribute("user", user);
+            resp.sendRedirect("/");
         } else {
             req.setAttribute("error", "unexpected error, check login or database");
             doGet(req, resp);
