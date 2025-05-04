@@ -1,4 +1,4 @@
-package org.srgbrl.laba1.service;
+package com.srgbrl.laba.service;
 
 import com.srgbrl.laba.dao.UserDAO;
 import com.srgbrl.laba.entity.User;

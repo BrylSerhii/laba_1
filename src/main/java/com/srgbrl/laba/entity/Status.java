@@ -1,4 +1,4 @@
-package org.srgbrl.laba1.entity;
+package com.srgbrl.laba.entity;
 
 public enum Status {
     OPEN,CLOSE

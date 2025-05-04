@@ -1,4 +1,4 @@
-package org.srgbrl.laba1.dao;
+package com.srgbrl.laba.dao;
 
 import com.srgbrl.laba.entity.Faculty;
 import com.srgbrl.laba.entity.Status;

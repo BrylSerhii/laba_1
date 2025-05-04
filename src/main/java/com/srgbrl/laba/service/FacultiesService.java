@@ -1,6 +1,5 @@
-package org.srgbrl.laba1.service;
+package com.srgbrl.laba.service;
 
-import com.srgbrl.laba.dao.ApplicantDao;
 import com.srgbrl.laba.dao.FacultyDao;
 import com.srgbrl.laba.entity.Faculty;
 import com.srgbrl.laba.entity.Status;

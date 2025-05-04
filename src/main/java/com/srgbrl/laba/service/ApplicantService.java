@@ -1,4 +1,4 @@
-package org.srgbrl.laba1.service;
+package com.srgbrl.laba.service;
 
 import com.srgbrl.laba.dao.ApplicantDao;
 import com.srgbrl.laba.entity.Applicant;
@@ -7,9 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 public class ApplicantService {
 

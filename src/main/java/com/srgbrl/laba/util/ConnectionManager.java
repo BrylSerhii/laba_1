@@ -1,4 +1,4 @@
-package org.srgbrl.laba1.util;
+package com.srgbrl.laba.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
