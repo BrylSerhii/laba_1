@@ -1,6 +1,5 @@
 package com.srgbrl.laba.servlet;
 
-import com.srgbrl.laba.dao.UserDAO;
 import com.srgbrl.laba.entity.User;
 import com.srgbrl.laba.service.AuthService;
 import jakarta.servlet.ServletException;
@@ -16,8 +15,6 @@ import java.nio.charset.StandardCharsets;
 public class RegistrationServlet extends HttpServlet {
 
     private final AuthService validation = AuthService.getInstance();
-    private final UserDAO userDao = UserDAO.getInstance();
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding(String.valueOf(StandardCharsets.UTF_8));
